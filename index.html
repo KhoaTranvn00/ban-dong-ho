@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/grid-system.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+    <title>AKShop</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <nav class="navbar scroll">
+                <div class="navbar-pc">
+                    <div class="grid wide">
+                        <div class="navbar-pc__container hide-on-tb-mb">
+                            <a href="#" class="navbar__logo">
+                                <h1 class="navbar__logo-name"><span>AK</span>Shop</h1>
+                            </a>
+                            <div class="navbar__menu">
+                                <a href="" class="navbar__menu-item">Giới thiệu</a>
+                                <a href="" class="navbar__menu-item">Đồng hồ nam</a>
+                                <a href="" class="navbar__menu-item">Đồng hồ nữ</a>
+                                <a href="" class="navbar__menu-item">Đồng hồ đôi</a>
+                                <a href="" class="navbar__menu-item">Phụ kiện</a>
+                                <a href="" class="navbar__menu-item">Tin tức</a>
+                                <a href="" class="navbar__menu-item">Liên hệ</a>
+                            </div>
+                            <div class="navbar-pc__btn">
+                                <i class="navbar-pc__btn-icon fas fa-search"></i>
+                                <i class="navbar-pc__btn-icon fas fa-user"></i>
+                                <i class="navbar-pc__btn-icon fas fa-shopping-bag"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-tb-mb__container hide-on-pc">
+                    <label for="bars-tb-mb__checkbox" class="">
+                        <i class="navbar-tb-mb__icon fas fa-bars"></i>
+                    </label>
+                    <div class="navbar__logo">
+                        <h1 class="navbar__logo-name"><span>AK</span>Shop</h1>
+                    </div>
+                    <i class="navbar-tb-mb__icon fas fa-shopping-bag"></i>
+                </div>
+            </nav>
+            <div href="#" class="page-control">
+                <i class="fas fa-angle-up"></i>
+            </div>
+            <div class="bar-tb-mb__container">
+                <input type="checkbox" name="" id="bars-tb-mb__checkbox" hidden>
+                <div class="navbar__menu tb-mb">
+                    <a href="" class="navbar__menu-item tb-mb">Giới thiệu</a>
+                    <a href="" class="navbar__menu-item tb-mb">Đồng hồ nam</a>
+                    <a href="" class="navbar__menu-item tb-mb">Đồng hồ nữ</a>
+                    <a href="" class="navbar__menu-item tb-mb">Đồng hồ đôi</a>
+                    <a href="" class="navbar__menu-item tb-mb">Phụ kiện</a>
+                    <a href="" class="navbar__menu-item tb-mb">Tin tức</a>
+                    <a href="" class="navbar__menu-item tb-mb">Liên hệ</a>
+                </div>
+            </div>
+        </header>
+        <div class="slider">
+            <div class="slider-control">
+                <span class="slider-control-icon slider-control-icon--active"></span>
+                <span class="slider-control-icon"></span>
+                <span class="slider-control-icon"></span>
+            </div>
+            <div class="slider-container">
+                <img src="./asset/img/s1.jpg" alt="" class="slider-img">
+                <img src="./asset/img/s2.jpg" alt="" class="slider-img">
+                <img src="./asset/img/s3.jpg" alt="" class="slider-img">
+            </div>
+        </div>
+        <div class="container">
+            <section class="grid wide product">
+                <div class="product-title-wrap">
+                    <h2 class="product-title">
+                        Đồng hồ nam
+                    </h2>
+                    <p class="product-sub-title">
+                        Men's watch
+                    </p>
+                </div>
+                <div class="product-content row">
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item item--off">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n8.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam1</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n2.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n3.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item item--off">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n4.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n5.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n6.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n7.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/n8.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="promotion">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-4 m-4 c-12">
+                            <div class="promotion-item">
+                                <div class="promotion-item__icon">
+                                    <i class="fas fa-truck"></i>
+                                </div>
+                                <div class="promotion-item__info">
+                                    <h5 class="promotion-item__name">Miễn Phí Giao Hàng</h5>
+                                    <p class="promotion-item__desc">Áp dụng trên tất cả các tỉnh thành</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="promotion-item">
+                                <div class="promotion-item__icon">
+                                    <i class="fas fa-gift"></i>
+                                </div>
+                                <div class="promotion-item__info">
+                                    <h5 class="promotion-item__name">Quà Tặng Đặc Biệt</h5>
+                                    <p class="promotion-item__desc">Bốc Thăm May Mắn Sản Phẩm Trên H2SHOP</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="promotion-item">
+                                <div class="promotion-item__icon">
+                                    <i class="fas fa-piggy-bank"></i>
+                                </div>
+                                <div class="promotion-item__info">
+                                    <h5 class="promotion-item__name">Tiết Kiệm Khi Mua Ở Mona</h5>
+                                    <p class="promotion-item__desc">Giảm 10% trên tất cả các sản phẩm</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grid wide product">
+                <div class="product-title-wrap">
+                    <h2 class="product-title">
+                        Đồng hồ nữ
+                    </h2>
+                    <p class="product-sub-title">
+                        Ladies's watch
+                    </p>
+                </div>
+                <div class="product-content row">
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/1.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item item--off">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/2.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/3.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/4.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/5.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/6.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/7.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/8.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="details">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="detail-item">
+                                <div class="detail-item__bg">
+                                    <img src="./asset/img/d1.jpg" alt="" class="detail-item__img">
+                                </div>
+                                <div class="detail-item__content">
+                                    <h5 class="detail-item__name">Romance in the air</h5>
+                                    <p class="detail-item__desc">WEAR YOUR STYLE WITH VERVE & ATTITUDE</p>
+                                    <a href="" class="detail-item__btn">detail</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <div class="detail-item">
+                                <div class="detail-item__bg">
+                                    <img src="./asset/img/d2.jpg" alt="" class="detail-item__img">
+                                </div>
+                                <div class="detail-item__content">
+                                    <h5 class="detail-item__name">Analog & Digital</h5>
+                                    <p class="detail-item__desc">SMART WATCHES LATEST FASHION STATEMENT</p>
+                                    <a href="" class="detail-item__btn">detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grid wide product">
+                <div class="product-title-wrap">
+                    <h2 class="product-title">
+                        Đồng hồ đôi
+                    </h2>
+                    <p class="product-sub-title">
+                        Couple watch
+                    </p>
+                </div>
+                <div class="product-content row">
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/q.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/w.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/e.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item item--off">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/r.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/a.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/s.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/d.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-4 c-6">
+                        <div class="item">
+                            <div class="off">
+                                Hết hàng
+                            </div>
+                            <div class="item__img-wrap">
+                                <div class="item__img" style="background-image: url('./asset/img/f.jpg');"></div>
+                                <div class="item__discount">
+                                    -10%
+                                </div>
+                                <div class="item__cart">
+                                    <i class="item__cart-icon fas fa-shopping-bag"></i>
+                                </div>
+                            </div>
+                            <div class="item__info">
+                                <div class="item__type">đồng hồ nam</div>
+                                <h3 class="item__name">ĐỒNG HỒ LOUIS ERARD 13900AA05.BDC102 NAM PIN DÂY DA </h3>
+                                <div class="item__price">
+                                    <span class="item__price-old">500.000d</span>
+                                    <span class="item__price-new">300.000d</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="grid wide footer-container">
+            <div class="row">
+                <div class="col l-4 m-8 c-8 mc-oo-2">
+                    <div class="footer-item category">
+                        <div class="footer-item__header">Danh mục</div>
+                        <div class="footer-item__list">
+                            <a href="" class="footer-item__item">
+                                Đồng hồ nam
+                            </a>
+                            <a href="" class="footer-item__item">
+                                Đồng hồ nữ
+                            </a>
+                            <a href="" class="footer-item__item">
+                                Đồng hồ đôi
+                            </a>
+                            <a href="" class="footer-item__item">
+                                Phụ kiện
+                            </a>
+                            <a href="" class="footer-item__item">
+                                Tin tức
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-8 c-8 mc-oo-2">
+                    <div class="footer-item">
+                        <div class="footer-name">AKSHOP</div>
+                        <div class="footer-shop__desc">Là một website đồng hồ chất lượng cao online bán hàng trực tuyến chúng tôi phục vụ nhu cầu mua sắm trực tuyến</div>
+                        <input type="text" class="footer-input" placeholder="Email...">
+                    </div>
+                </div>
+                <div class="col l-4 m-8 c-8 mc-oo-2">
+                    <div class="footer-item category">
+                        <div class="footer-item__header">THÔNG TIN LIÊN HỆ</div>
+                        <div class="footer-item__list">
+                            <a href="" class="footer-item__item">
+                                DHCT - Ninh Kiều - Cần Thơ
+                            </a>
+                            <a href="" class="footer-item__item">
+                                <i class="fas fa-mobile"></i>
+                                0372 999 999
+                            </a>
+                            <a href="" class="footer-item__item">
+                                <i class="fas fa-envelope"></i>
+                                anhkhoacttv@gmail.com
+                            </a>
+                            <a href="" class="footer-item__item">
+                                <i class="fab fa-facebook"></i>
+                                FaceBook
+                            </a>
+                            <a href="" class="footer-item__item">
+                                <i class="fab fa-instagram"></i>
+                                InStagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="./asset/js/main.js"></script>
+</body>
+
+</html>

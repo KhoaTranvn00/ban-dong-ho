@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #E2BA48;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    scroll-behavior:smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

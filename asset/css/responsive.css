@@ -1,0 +1,56 @@
+/* Only PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {    
+        display: none;
+    }
+}
+
+/* PC and TB */
+@media (min-width: 740px) {
+     .hide-on-pc-tb {
+        display: none;
+    }
+}
+
+/* Only TB */
+@media (min-width: 740px) and (max-width:1023px) {
+     .hide-on-tb {
+        display: none;
+    }
+}
+
+/* TB and MB */
+@media (max-width: 1023px) {
+     .hide-on-tb-mb {
+        display: none;
+    }
+    .detail-item {
+        margin-bottom: 20px;
+    }
+    .mc-oo-2{
+        margin-left: 16.66667%;
+        margin-right: 16.66667%;
+        order:1;
+    }
+    .shop {
+        order: 0;
+    }
+}
+
+/* Only MB */
+@media (max-width: 740px) {
+     .hide-on-mb {
+        display: none;
+    }
+    .slider-control {
+        bottom: 10px;
+    }
+    .slider-control-icon {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .promotion {
+        padding: 20px 0;
+    }
+}
